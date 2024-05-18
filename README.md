@@ -7,14 +7,24 @@ My personal setup for yearly formatted MacBook Pro work environment
 3. [iterm2](https://iterm2.com/): replaces Terminal
 4. [NerdFont](https://www.nerdfonts.com/font-downloads): Using FiraCode Mono
 5. [Git Tower](https://www.git-tower.com/mac): Default Git GUI
-6. Setup SSH keys
-7. Setup [Oh-my-ZSH](https://ohmyz.sh/#install): For customising ZSH
-8. Setup [Powerlevel10K for ZSH](https://github.com/romkatv/powerlevel10k): Customising prompt
-9. Install stats via brew: `brew install stats --cask`
-10. Install rectangle via brew: `brew install rectangle --cask`
-11. Install [VSCode](https://code.visualstudio.com/Download)
-12. Install [Laravel Herd](https://herd.laravel.com/)
-13. Install caffeine alternative: keepingyouawake via brew: `brew install keepingyouawake --cask`
+6. Setup [Oh-my-ZSH](https://ohmyz.sh/#install): For customising ZSH
+7. Setup [Powerlevel10K for ZSH](https://github.com/romkatv/powerlevel10k): Customising prompt
+8. Install stats via brew: `brew install stats --cask`
+9. Install rectangle via brew: `brew install rectangle --cask`
+10. Install [VSCode](https://code.visualstudio.com/Download)
+11. Install [Laravel Herd](https://herd.laravel.com/)
+12. Install caffeine alternative: keepingyouawake via brew: `brew install keepingyouawake --cask`
+
+## Setup SSH keys
+Download keys from cloud storage
+Setup .ssh folder and keys permissions:
+
+| Item        | Sample            | Numeric | Bitwise    | 
+| ----------- | ----------------- | ------- | ---------- |
+| SSH folder  | ~/.ssh            | 700     | drwx------ |
+| Public key  |	~/.ssh/id_rsa.pub | 644     | -rw-r--r-- |
+| Private key |	~/.ssh/id_rsa     | 600     | -rw------- |
+| Config file | ~/config          | 600     | -rw------- |
 
 ## macOS Setup
 * Turn off Natural scrolling
