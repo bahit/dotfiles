@@ -38,8 +38,19 @@ Go to (`cmd+,`) Settings > Keys > Hotkey > "Create a Dedicated Hotkey Window..."
 
 This will create a new profile called "Hotkey Window"
 
+### Import JSON Profiles
+Under Settings > Profiles > Other Actions > Import JSON Profiles to get 2 Profiles called:
+
+* Default
+* Hotkey Window
+
+The JSON Profiles called `iterm-profiles.json` can be found in this repo.
+
 ### Changing color scheme (for Hotkey Window)
+Update: Use Brogrammer.itemcolors uploaded into this repo.
+
 `mkdir -p ~/.iterm && curl https://raw.githubusercontent.com/mbadolato/iTerm2-Color-Schemes/master/schemes/Brogrammer.itermcolors > ~/.iterm/Brogrammer.itermcolors`
 
 Then go to (`cmd+,`) Settings > Profiles > Color > Color Presets > Import: Find Brogrammer.itemcolors
+
 
