@@ -110,6 +110,16 @@ alias zshconfig="nano ~/.p10k.zsh"
 # Finder location path on terminal.
 alias cdf='cd "$(osascript -e '\''tell application "Finder" to return (POSIX path of (insertion location as alias))'\'' 2>/dev/null)"'
 
+# Somehow above did not work on iMac Monterey but worked on Senoma, alternative:
+function ff { osascript -e 'tell application "Finder"'\
+ -e "if (${1-1} <= (count Finder windows)) then"\
+ -e "get POSIX path of (target of window ${1-1} as alias)"\
+ -e 'else' -e 'get POSIX path of (desktop as alias)'\
+ -e 'end if' -e 'end tell'; };\
+
+function cdff { cd "`ff $@`"; };
+
+
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
