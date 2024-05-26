@@ -14,6 +14,7 @@ My personal setup for yearly formatted MacBook Pro work environment
 10. Install [VSCode](https://code.visualstudio.com/Download)
 11. Install [Laravel Herd](https://herd.laravel.com/)
 12. Install caffeine alternative: keepingyouawake via brew: `brew install keepingyouawake --cask`
+13. Install stats via brew: `brew install stats --cask` then import `Stats.plist`
 
 ## Setup SSH keys
 Download keys from cloud storage
