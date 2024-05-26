@@ -13,8 +13,32 @@ My personal setup for yearly formatted MacBook Pro work environment
 9. Install rectangle via brew: `brew install rectangle --cask`
 10. Install [VSCode](https://code.visualstudio.com/Download)
 11. Install [Laravel Herd](https://herd.laravel.com/)
-12. Install caffeine alternative: keepingyouawake via brew: `brew install keepingyouawake --cask`
-13. Install stats via brew: `brew install stats --cask` then import `Stats.plist`
+12. Install dbngin via brew: `brew install dbngin --cask`
+13. Install Sequel-ace via brew: `brew install sequel-ace --cask`
+14. Install hiddenbar via brew: `brew install hiddenbar --cask`
+15. Install caffeine alternative: keepingyouawake via brew: `brew install keepingyouawake --cask`
+16. Install stats via brew: `brew install stats --cask` then import `Stats.plist`
+17. Install Raycast via brew: `brew install raycast --cask` then import `Raycast [date-time].rayconfig`
+18. Install Itsycal via brew: `brew install itsycal --cask`
+
+## List of apps installed using brew --cask
+
+1. dbngin
+2. iterm2
+3. keepingyouawake
+4. raycast
+5. sequel-ace
+6. hiddenbar
+7. itsycal
+8. keyboard-cleaner
+9. rectangle
+10. stats
+
+## List of apps installed using just brew
+1. z
+
+### To install all the apps above using script
+`xargs brew install --cask < file_containing_list_of_apps.txt`
 
 ## Setup SSH keys
 Download keys from cloud storage
