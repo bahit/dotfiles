@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BAT_mini_alignment</key>
+	<string>center</string>
+	<key>BAT_mini_label</key>
+	<true/>
+	<key>Battery_barChart_position</key>
+	<integer>3</integer>
+	<key>Battery_batteryDetails_position</key>
+	<integer>4</integer>
+	<key>Battery_battery_additional</key>
+	<string>innerPercentage</string>
+	<key>Battery_battery_color</key>
+	<true/>
+	<key>Battery_battery_position</key>
+	<integer>0</integer>
+	<key>Battery_label_position</key>
+	<integer>1</integer>
+	<key>Battery_mini_position</key>
+	<integer>2</integer>
+	<key>Battery_oneView</key>
+	<false/>
+	<key>Battery_state</key>
+	<true/>
+	<key>Battery_widget</key>
+	<string>battery</string>
+	<key>Clock_label_position</key>
+	<integer>1</integer>
+	<key>Clock_list</key>
+	<data>
+	W3siaWQiOiJBRDE5MjgxMS0wNTVDLTQ0MTctQjMxOC1GMEQwMzg1QTg1RDciLCJuYW1l
+	IjoiTG9jYWwgdGltZSIsImZvcm1hdCI6Img6bW0gYSIsImVuYWJsZWQiOnRydWUsInR6
+	IjoibG9jYWwifSx7ImlkIjoiNDc4MkE1RUYtREZGOS00REZFLUI5OTktNjQ5NTYyN0ZE
+	RTk2IiwibmFtZSI6IkxvbmRvbiIsImZvcm1hdCI6Inl5eXktTU0tZGQgSEg6bW06c3Mi
+	LCJ0eiI6IjAiLCJlbmFibGVkIjpmYWxzZX0seyJpZCI6IjA4NDc4QzIwLUI0Q0MtNDQ0
+	Mi04QTI0LTJDOTcyNzFFNUUzRCIsImVuYWJsZWQiOmZhbHNlLCJuYW1lIjoiVG9reW8i
+	LCJmb3JtYXQiOiJ5eXl5LU1NLWRkIEhIOm1tOnNzIiwidHoiOiI5In0seyJlbmFibGVk
+	IjpmYWxzZSwidHoiOiItNyIsImlkIjoiRDNCNkUxMTUtMEZCMy00MTA2LThDM0UtNTND
+	RDdDQzg1NzZCIiwibmFtZSI6IlNhbiBGcmFuY2lzY28iLCJmb3JtYXQiOiJ5eXl5LU1N
+	LWRkIEhIOm1tOnNzIn0seyJmb3JtYXQiOiJ5eXl5LU1NLWRkIEhIOm1tOnNzIiwiaWQi
+	OiI3MTc4MzZGNi04MzhCLTRDODktQjcyNS1GNzQ3MjIzRDdENTEiLCJ0eiI6Ii04Iiwi
+	bmFtZSI6Ik5ldyBZb3JrIiwiZW5hYmxlZCI6ZmFsc2V9LHsidHoiOiIzIiwiZm9ybWF0
+	IjoieXl5eS1NTS1kZCBISDptbTpzcyIsIm5hbWUiOiJNYWtrYWgiLCJpZCI6IkFDOTA2
+	QjM3LUI4OTctNEE0Ri1CNjdGLTFDNTdFN0RCNDdBRiIsImVuYWJsZWQiOmZhbHNlfV0=
+	</data>
+	<key>Clock_stack_position</key>
+	<integer>0</integer>
+	<key>Clock_state</key>
+	<true/>
+	<key>Clock_widget</key>
+	<string>sensors</string>
+	<key>LaunchAtLoginNext</key>
+	<true/>
+	<key>NSNavPanelExpandedSizeForSaveMode</key>
+	<string>{800, 448}</string>
+	<key>NSNavPanelExpandedStateForSaveMode</key>
+	<true/>
+	<key>NSStatusItem Preferred Position Battery_battery</key>
+	<real>310</real>
+	<key>NSStatusItem Preferred Position CPU_mini</key>
+	<real>517</real>
+	<key>NSStatusItem Preferred Position Clock_sensors</key>
+	<real>78</real>
+	<key>NSStatusItem Preferred Position Disk_mini</key>
+	<real>423</real>
+	<key>NSStatusItem Preferred Position Network_speed</key>
+	<real>352</real>
+	<key>NSStatusItem Preferred Position RAM_mini</key>
+	<real>470</real>
+	<key>NSStatusItem Restore Position Battery_mini</key>
+	<integer>223</integer>
+	<key>NSToolbar Configuration eu.exelban.Stats.Settings.Toolbar</key>
+	<dict>
+		<key>TB Display Mode</key>
+		<integer>1</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<true/>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSWindow Frame NSNavPanelAutosaveName</key>
+	<string>560 482 800 448 0 0 1920 1175 </string>
+	<key>runAtLoginInitialized</key>
+	<true/>
+	<key>setupProcess</key>
+	<true/>
+	<key>telemetry</key>
+	<false/>
+	<key>telemetry_id</key>
+	<string>86B034C8-C1F4-4A50-91C3-D41C55D33D41</string>
+	<key>updater_check_ts</key>
+	<integer>1716715981</integer>
+	<key>version</key>
+	<string>2.10.14</string>
+</dict>
+</plist>
